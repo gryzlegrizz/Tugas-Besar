@@ -54,6 +54,7 @@ if(isset($_POST['login'])){
                                 <input type="text" name="username" for="username" placeholder="Username" />
                                 <input type="password" name="password" for="password" placeholder="Password" />
                                 <input type="submit" class="btn" name="login" value="Login" />
+                                <a href="lupa.php" class="forgot">Lupa Password ?</a>
                             </form>
                             <p class="sign-up">Belum ada akun?<a href="signup.php"> Daftar dong</a></p>
                         </div>

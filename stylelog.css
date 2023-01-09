@@ -152,3 +152,12 @@ form input{
 .sign-up a:hover{
     text-decoration: underline;
 }
+
+.btn-login .forgot{
+    padding-top: 15px;
+    text-shadow: #fff 0 0 50px;
+}
+
+.btn-login .forgot:hover{
+    text-decoration: underline;
+}
