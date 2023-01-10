@@ -22,7 +22,7 @@ if(isset($_POST['login'])){
         if(password_verify($password, $user["password"])){
             session_start();
             $_SESSION["user"] = $user;
-            header("Location: home.php");
+            header("Location: homepage.php");
         }
     }
 }
