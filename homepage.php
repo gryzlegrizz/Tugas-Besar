@@ -32,7 +32,7 @@
             <div id="cover">
                 <form method="get" action="">
                     <div class="tb">
-                        <div class="td"><input type="text" id="searchbar" onkeyup="judul()" name="search" placeholder="Search" required></div>
+                        <div class="td"><input type="text" id="searchbar" name="search" placeholder="Search"></div>
                             <div class="td" id="s-cover">
                                 <button type="submit" class="sbmt">
                                 <div id="s-circle"></div>
